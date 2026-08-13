@@ -454,11 +454,11 @@ cat(
 )
 
 print(
-  extreme_old |>
+  extreme_old %>%
     select(
       date,
       tx
-    ) |>
+    ) %>%
     arrange(
       date
     )
@@ -472,11 +472,11 @@ cat(
 )
 
 print(
-  extreme_2026 |>
+  extreme_2026 %>%
     select(
       date,
       tx
-    ) |>
+    ) %>%
     arrange(
       date
     )
