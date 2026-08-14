@@ -1,4 +1,4 @@
-# Frankfurt Above 40°C
+# Frankfurt am Main, Hessen, Germany - Days above 40°C 2016 vs Rest of available Data
 
 ## Motivation
 
@@ -10,17 +10,25 @@ So I downloaded the historical daily temperature data from the **Deutscher Wette
 
 The result is this visualization.
 
-A day above 40°C is more than just an interesting statistical observation. Extreme heat affects human health, agriculture, ecosystems, infrastructure, productivity, energy demand, and the general livability of our cities.
+What I found was striking: **in the Frankfurt data used here, 2026 has already recorded more days at or above 40°C than all previous years in the available record combined.** And 2026 is not even over yet.
 
-Of course, a single hot day cannot simply be attributed to climate change, and this visualization is not intended to be an event-attribution study. But extreme temperatures are part of a much larger development that is becoming increasingly difficult to ignore.
+Of course, this does not mean that one weather station or one year can, by itself, demonstrate climate change. A single hot day cannot simply be attributed to global warming, and this visualization is not intended to be an event-attribution study. But the result fits into a much broader and well-documented development: **heatwaves in Europe are becoming more frequent, more intense, and increasingly dangerous.**
 
-Climate change is no longer only an abstract problem of the distant future.
+A day above 40°C is therefore more than just an interesting statistical observation. Extreme heat affects human health, agriculture, ecosystems, infrastructure, productivity, energy demand, and the general livability of our cities.
+
+The human consequences are already visible. By late July 2026, the **Robert Koch Institute (RKI) estimated around 11,900 heat-related deaths in Germany during 2026**, with most of them associated with the extreme temperatures experienced in late June. During the week of 22–28 June alone, the Federal Statistical Office reported that overall mortality in Germany was **32% above the median of the previous four years**.
+
+These are not just points on a graph.
+
+Climate change is no longer only an abstract problem of the distant future. Its consequences are increasingly measurable in temperatures, health outcomes, infrastructure, agriculture, and ultimately in human lives.
 
 And this makes it a political issue as well.
 
-Politics has to act to prevent the consequences of global warming from becoming much larger than they already are. This means reducing greenhouse-gas emissions, investing in adaptation, protecting vulnerable populations, improving the resilience of cities and infrastructure, and coordinating climate policy internationally.
+Politics has to act to prevent the tragedy of global warming from becoming much larger than it already is. This means reducing greenhouse-gas emissions, investing in adaptation, protecting vulnerable populations, improving the resilience of cities and infrastructure, and coordinating climate policy internationally.
 
-The real tragedy of global warming would not only be the warming itself. It would be allowing its consequences to become much worse even though we know that many of them can still be limited.
+There is an important difference between saying that climate change can no longer be prevented entirely and saying that nothing can be done. **Every additional degree of warming matters, and so does every fraction of a degree that can still be avoided.**
+
+The real tragedy of global warming would therefore not only be the warming itself. It would be allowing its consequences to become much worse even though we know that many of them can still be limited.
 
 This small project is my attempt to make a part of that development visible using official weather data from Frankfurt.
 
@@ -320,13 +328,7 @@ The main output is a `ggplot2` visualization showing:
 - the exact dates and temperatures of extreme observations;
 - the number of historical and 2026 extreme-temperature days.
 
-The final plot is stored as:
-
-```r
-p
-```
-
-and displayed with:
+The final plot is stored as, and displayed with:
 
 ```r
 p
@@ -371,35 +373,6 @@ No separate input dataset needs to be downloaded beforehand.
 
 ---
 
-## Interpretation
-
-This visualization is descriptive.
-
-It shows where the maximum daily temperatures observed in Frankfurt fall within the historical temperature record and highlights days reaching at least 40°C.
-
-It should **not** be interpreted as:
-
-- a formal statistical test of a long-run temperature trend;
-- an estimate of how much the probability of a 40°C day has changed;
-- proof that a particular hot day was caused by climate change;
-- a climate-event attribution analysis.
-
-Those questions require additional statistical and climatological analysis.
-
-The purpose of this project is much simpler: to put the temperatures observed in 2026 into the context of Frankfurt's historical observations.
-
-Still, descriptive visualizations can be useful.
-
-Climate change is often discussed through global averages, temperature anomalies, scenarios, and fractions of a degree. These measures are scientifically important, but they can sometimes feel abstract.
-
-A graph showing the actual temperatures recorded in a city makes the issue much more tangible.
-
-The data themselves do not tell us which policies to choose.
-
-But deciding whether and how strongly to react to what the data are showing us is fundamentally political.
-
----
-
 ## Reproducibility
 
 The script downloads the underlying observations directly from the DWD servers every time it is executed.
@@ -415,20 +388,6 @@ end_date = as.Date("2026-08-12")
 Only observations up to this date are used.
 
 This makes it possible to reproduce the version of the visualization created for this project even after newer observations become available.
-
----
-
-## Inspiration
-
-The immediate inspiration for this project was a graph about **Bordeaux, France**, circulating on Twitter/X.
-
-The visualization showed the historical distribution of daily temperatures and highlighted recent days reaching exceptionally high temperatures, including temperatures around or above 40°C.
-
-I found the graph striking because it made an otherwise abstract discussion about extreme heat immediately understandable.
-
-Instead of simply reposting it, I wanted to reproduce the basic idea using official German weather observations and see what the historical record looks like for Frankfurt/Main.
-
-That curiosity eventually became this small R project.
 
 ---
 
