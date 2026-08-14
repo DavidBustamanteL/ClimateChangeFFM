@@ -14,7 +14,7 @@ The result is this visualization.
   <img src="./frankfurt_daily_high_temperature.png" height="420">
 </p>
 
-What I found was striking: **in the Frankfurt data used here, 2026 has already recorded more days at or above 40°C than all previous years in the available record combined.** And 2026 is not even over yet.
+What I found was striking: **in the Frankfurt data used here, 2026 has already recorded more days at or above 40°C than all previous years in the available record combined.** And this phenomenon is appearing in many more cities and countries!
 
 Of course, this does not mean that one weather station or one year can, by itself, demonstrate climate change. A single hot day cannot simply be attributed to global warming, and this visualization is not intended to be an event-attribution study. But the result fits into a much broader and well-documented development: **heatwaves in Europe are becoming more frequent, more intense, and increasingly dangerous.**
 
