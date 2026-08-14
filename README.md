@@ -9,7 +9,7 @@ Seeing that graph made me curious about what the same comparison would look like
 So I downloaded the historical daily temperature data from the **Deutscher Wetterdienst (DWD)** and compared the temperatures observed in 2026 with the historical record.
 
 The result is this visualization.
-<img src="./frankfurt_daily_high_temperature.jpg" height="420">
+<img src="./frankfurt_daily_high_temperature.png" height="420">
 
 What I found was striking: **in the Frankfurt data used here, 2026 has already recorded more days at or above 40°C than all previous years in the available record combined.** And 2026 is not even over yet.
 
