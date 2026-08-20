@@ -20,7 +20,7 @@ Of course, this does not mean that one weather station or one year can, by itsel
 
 A day above 40°C is therefore more than just an interesting statistical observation. Extreme heat affects human health, agriculture, ecosystems, infrastructure, productivity, energy demand, and the general livability of our cities.
 
-The human consequences are already visible. By late July 2026, the **Robert Koch Institute (RKI) estimated around 11,900 heat-related deaths in Germany during 2026**, with most of them associated with the extreme temperatures experienced in late June. During the week of 22–28 June alone, the Federal Statistical Office reported that overall mortality in Germany was **32% above the median of the previous four years**.
+The human consequences are already visible. By late July 2026, the **Robert Koch Institute (RKI) estimated around 14,500 heat-related deaths in Germany during 2026**, with most of them associated with the extreme temperatures experienced in late June. During the week of 22–28 June alone, the Federal Statistical Office reported that overall mortality in Germany was **32% above the median of the previous four years**.
 
 These are not just points on a graph.
 
